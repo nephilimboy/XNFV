@@ -524,8 +524,10 @@ div.panel.show {
     position:relative;
 }
 .single_portfolio_img img{
-    width:100%;
-    height: 230px;
+    /*width:100%;*/
+    /*height: 230px;*/
+    width: 70%;
+    height: 133px;
 }
 .single_portfolio_img:hover .mixi_portfolio_overlay{
     opacity:1;
@@ -685,4 +687,16 @@ hr{
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+
+.picRef{
+    color: #e1eaf1;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 18px;
+    line-height: 2rem;
+}
+
+.picRef:hover{
+    color: #16A085;
 }
